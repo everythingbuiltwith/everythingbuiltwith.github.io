@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>everythingbuiltwith - Discover What Companies Build With — and Why</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        black: '#0a0a0a',
+                        red: {
+                            500: '#e8453a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+            background-size: 25px 25px;
+        }
+    </style>
+</head>
+<body class="bg-black text-white h-full flex items-center justify-center antialiased">
+    <main class="text-center p-8">
+        <div class="flex items-center justify-center mb-20">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-2 text-red-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v8.25A2.25 2.25 0 0 0 6 16.5h2.25m8.25-8.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-7.5A2.25 2.25 0 0 1 8.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 0 0-2.25 2.25v6" />
+            </svg>
+            <span class="font-extrabold text-xl sm:text-2xl md:text-4xl">everything<span class="text-red-500">built</span>with</span>
+        </div>
+
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight">
+            Discover What Companies Build With — and Why.
+        </h1>
+
+        <p class="mt-4 max-w-4xl mx-auto text-lg text-gray-400">
+            Discover the tech behind successful products — with curated stories, real-world insights, and the reasons behind every choice.
+            For developers, founders, and teams making smarter decisions.
+        </p>
+
+        <p class="mt-8 text-xl font-medium text-white bg-red-500 rounded-full inline-block px-6 py-2">
+            Coming soon
+        </p>
+    </main>
+</body>
+</html> 
